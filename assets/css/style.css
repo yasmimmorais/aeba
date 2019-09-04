@@ -8057,4 +8057,16 @@ a.text-dark:focus, a.text-dark:hover {
   visibility: hidden !important;
 }
 
+/** todo seu codigo vem aqui */
+/*Variáveis*/
+.title-default {
+  font-family: "Roboto", sans-serif;
+  color: red;
+  background: black;
+}
+
+.estilo-listagem {
+  list-style-type: square;
+}
+
 /*# sourceMappingURL=style.css.map */

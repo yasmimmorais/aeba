@@ -3,5 +3,18 @@
 
 /** todo seu codigo vem aqui */
 
+/*Variáveis*/
+$t-font: 'Roboto', sans-serif;
+
+
+.title-default{
+	font-family: $t-font;
+	color: red;
+	background: black;
+}
+
+.estilo-listagem{
+	list-style-type:square;
+}
 
 
