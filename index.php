@@ -20,92 +20,89 @@
 		<nav aria-label="breadcrumb">
 		  <ol class="breadcrumb">
 		    <li class="breadcrumb-item"><a href="#">Página Inicial</a></li>
-		    <li class="breadcrumb-item active" aria-current="page">Conheça-nos</li>
+		    <li class="breadcrumb-item active" aria-current="page">Fale Conosco</li>
 		  </ol>
-		</nav
+		</nav>
 	</section>
 
-	<!-- Sobre -->
+	<!-- Formulário da sessão Fale Conosco -->
 	<section class="container">
 		<div class="row">
-			<div class="col-lg-8 pt-4 mx-auto">
-				<h2 class="title pt-3 pb-1">Sobre</h2>
-				<div class="row-title mb-3"></div>
-				<p class="text-flow">A Associação dos Empresários do Bairro do Alecrim - AEBA, foi fundada em 19 de Agosto de 2003.</p>
-				<p class="sub-title">A atual diretoria assumiu em junho de 2019 e é composta pelos seguintes empresários:</p>
-				<ul class="estilo-listagem">
-					<li class="text-flow">Presidente: Pedro Campos de Azevedo, empresa Campos Equipamentos e Refrigeração.</li>
-					<li class="text-flow">Vice-Presidente: Matheus Felipe Martins Feitosa, empresa M Impressões Gráfica Rápida.</li>
-					<li class="text-flow">Primeira Secretária: Marilucia da Cunha Sardinha, empresa Malu & Sardinha.</li>
-					<li class="text-flow">Segundo Secretário: Washington Reis de Almeida, empresa Bazar São Paulo.</li>
-					<li class="text-flow">Primeiro Tesoureiro: Enilvan Rodrigues de Macedo, empresa Casa Nobre.</li>
-					<li class="text-flow">Segundo Tesoureiro – Marcelo Torres da Costa, empresa Metal Super.</li>
-				</ul>
-
-				<p class="sub-title">Conselho Fiscal:</p>
-				
-				<ul class="estilo-listagem">
-					<li class="text-flow">Ailson Carvalho Feitosa, empresa Shopping das festas.</li>
-					<li class="text-flow">Francisco Derneval de Sá, empresa Lojas Sarmento.</li>
-					<li class="text-flow">Ednildo Soares de Araújo, empresa Calçados Araújo.</li>
-				</ul>
+			<!-- Título da sessão -->
+			<div class="col-sm-12 p-lg-4 p-sm-2 p-md-4">
+				<h2 class="title pt-3 pb-1">Fale Conosco</h2>
+				<div class="row-title mb-1"></div>
 			</div>
 		</div>
-	</section>
 
-	<!-- Objetivos -->
-	<section class="container">
+		<!-- Texto esquerdo em relação ao formulário -->
 		<div class="row">
-			<div class="col-lg-8 pt-4 mx-auto">
-				<h2 class="title pt-3 pb-1">Objetivos</h2>
-				<div class="row-title mb-3"></div>
-		        <p class="text-flow">A Associação dos Empresários do Bairro do Alecrim (AEBA), tem como objetivo representar os empresários, fazendo reivindicações e apresentando soluções para sanar os problemas, buscando sempre o bem estar da comunidade e o fortalecimento do bairro.</p>
-		        <p class="text-flow">A Diretoria tem como premissa a prestação de serviços aos associados, realização de parcerias com Instituições de Ensino, Entidades do Sistema S (FECOMÉRCIO, SESC, SENAC e SEBRAE), sempre buscando a valorização do bairro, a geração de empregos e o fortalecimento das empresas.</p>
-		        <p class="text-flow">A AEBA também atua junto aos gestores públicos, implantando políticas públicas que tragam benefícios a toda comunidade e as pessoas que transitam pelo bairro.</p>
+			<div class="col-lg-6 col-sm-12 pr-lg-4 p-sm-4"><br>
+				<div class="title-green mt-sm-2">Podemos te ajudar com algo ou deseja se tornar um associado? </div>
+				<div class="text-flow">
+					<br>
+					<p>Envie-nos uma mensagem por meio deste formulário ou, se preferir, para o email aeba.alecrim@email.com ou whatsapp (84) 9 8121 - 4551.</p> 
+					<br>
+				</div>
 			</div>
+
+		<!-- Formulário direito em relação ao texto -->
+		<div class="col-lg-6 col-sm-12">
+			<form>
+				  <div class="form-row">
+				    <div class="form-group col-md-6">
+				    <!-- Nome Completo	 -->
+				      <label for="inputNome">Nome Completo*</label>
+				      <input type="text" class="form-control" id="inputNome" placeholder="Seu Nome Completo">
+				    </div>
+				    <div class="form-group col-md-6">
+				    <!-- E-mail -->
+				      <label for="inputEmail">E-mail*</label>
+				      <input type="email" class="form-control" id="inputEmail" placeholder="seuemail@exemplo.com">
+				    </div>
+				  </div>
+				   <div class="form-row">
+				    <div class="form-group col-md-6">
+				    <!-- Telefone -->
+				      <label for="inputTelefone">Telefone*</label>
+				      <input type="text" class="form-control" id="inputTelefone" placeholder="(XX) X XXXX-XXXX">
+				    </div>
+				    <div class="form-group col-md-6">
+				    <!-- Assunto -->
+				      <label for="inputAssunto">Assunto*</label>
+				      <input type="text" class="form-control" id="inputAssunto" placeholder="Título da Mensagem">
+				    </div>
+				  </div>
+				    <div class="form-group">
+					   <label for="textAreaMensagem">Mensagem*</label>
+					   <textarea class="form-control" id="textAreaMensagem" rows="3"></textarea>
+					</div>
+
+  				<button type="submit" class="btn btn-l-green pl-4 pr-4 float-lg-right mt-3">Enviar</button>
+			</form>
+			</div>
+
 		</div>
+
 	</section>
 
-	<!-- Missão -->
-	<section class="container">
-		<div class="row">
-			<div class="col-lg-8 pt-4 mx-auto">
-				<h2 class="title pt-3 pb-1">Missão</h2>
-				<div class="row-title mb-3"></div>
-				<p class="text-flow">Lutar pela organização do Alecrim, para que seja o melhor bairro para trabalhar, comprar e até morar.</p>
-			</div>
-		</div>
-	</section>
-
-	<!-- Por que se tornar um associado? -->
-	<section class="container">
-		<div class="row">
-			<div class="col-lg-8 pt-4 mx-auto">
-				<h2 class="title pt-3 pb-1">Por que se tornar um associado?</h2>
-				<div class="row-title mb-3"></div>
-					<ol>
-						<li class="text-flow">Ter uma entidade que represente os interesses dos empresários;</li>
-						<li class="text-flow">Diretoria com acesso a todos os gestores públicos e privados que podem contribuir para solução dos problemas do Alecrim;</li>
-						<li class="text-flow">Associação que busca no diálogo com os ambulantes, melhorias para a organização do bairro;</li>
-						<li class="text-flow">A AEBA vem atuando constantemente junto à classe política e gestores públicos, buscando apoio para solucionar os problemas do bairro, sem politizar a associação;</li>
-						<li class="text-flow">Associação com transparência na prestação de contas e suas ações;</li>
-						<li class="text-flow">Parceria com a Fecomércio, Senac, Sesc e outras entidades não governamentais, para desenvolver ações que irão trazer benefícios aos lojistas e comerciários;</li>
-						<li class="text-flow">Criação do Programa AMIGO DO ALECRIM, um projeto que tem como objetivo homenagear os responsáveis que mais contribuírem pela organização e desenvolvimento do Alecrim;</li>
-						<li class="text-flow">Ter um site que promove sua empresa, informando os produtos que comercializa e ações promocionais, fortalecendo seus negócios;</li>
-						<li class="text-flow">Ter um site que divulga os eventos, notícias e ações da AEBA.</li>
-						<li class="text-flow">Associação que promove a interação dos seus associados, através de encontros permanentes, em reunião-almoço e eventos sociais.</li>
-					</ol>
-			</div>
-		</div>
-	</section>
 
 	<!-- Rodapé -->
-	<section class="container">
-		<class class="row">
-			
-		</class>
+	<section class="container mt-5">
+		<div class="row footer pt-4">
+			<div class="col-sm-12 col-lg-6">
+				<p><img class="icon-footer mr-2" src="assets/img/email.svg" alt="Email">aeba.alecrim@email.com <img class="icon-footer ml-4 mr-2" src="assets/img/whatsapp.svg" alt="Whatsapp">(84) 9 8121 - 4551</p>
+			</div>
+			<div class="col-sm-12 col-lg-6 pb-4">
+				<img class="icon-footer mr-4 float-lg-right" src="assets/img/instagram.svg" alt="instagram">
+				<img class="icon-footer mr-4 sm-mx-auto float-lg-right" src="assets/img/facebook.svg" alt="Facebook">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="sub-footer col text-center p-3">&copy 2019 - Associação dos Empresários do Bairro do Alecrim. Todos os direitos reservados.</div>
+		</div>
 	</section>
-			
 	
 </body>
 </html>
