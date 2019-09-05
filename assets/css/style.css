@@ -8063,6 +8063,15 @@ a.text-dark:focus, a.text-dark:hover {
 /*Cores*/
 /*Escala de cinza*/
 /*Escala de verde*/
+/*Botões*/
+.btn-l-green {
+  background-color: #01cb62;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+/**/
 .title {
   font-family: "Roboto", sans-serif;
   font-size: 28px;
@@ -8082,16 +8091,44 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .text-flow {
-  font-size: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #212529;
 }
 
 .sub-title {
-  font-size: "Roboto", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #212529;
   color: #495057;
+}
+
+.footer {
+  background-color: #006832;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #212529;
+  color: #fff;
+}
+
+.icon-footer {
+  color: #fff;
+  width: 30px;
+}
+
+.sub-footer {
+  background-color: #014c25;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #fff;
+}
+
+/*Fale Conosco*/
+.title-green {
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  color: #01cb62;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

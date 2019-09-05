@@ -5,12 +5,15 @@
 
 /*Variáveis*/
 	/*Tipografias*/
-	$p-font: 'Roboto', sans-serif;
-	$s-font:'Open Sans', sans-serif;
+	$p-font:"Roboto", sans-serif;
+	$s-font:"Open Sans", sans-serif;
 	
 	/*Cores*/
 		/*Escala de cinza*/
 		$color-text: $gray-900;
+		$color-title: $gray-800;
+		$color-sub-title: $gray-700;
+		$color-white: $white;
 		
 		/*Escala de verde*/
 		$m-green: #006832;
@@ -18,6 +21,16 @@
 		$d-green: #014c25;
 
 
+/*Botões*/
+	.btn-l-green{
+		background-color: $l-green;
+		color: $color-white;
+		font-family: $p-font;
+		font-size: 18px;
+	}
+
+
+/**/
 .title{
 	font-family: $p-font;
 	font-size: 28px;
@@ -37,9 +50,9 @@
 }
 
 @mixin text-flow{
-	font-size: $p-font;
+	font-family: $s-font;
 	font-size: 16px;
-	color: $gray-900;
+	color: $color-text;
 } 
 
 .text-flow{
@@ -48,7 +61,35 @@
 
 .sub-title{
 	@include text-flow();
-	color: $gray-700;
+	color: $color-sub-title;
 }
 
+.footer{
+	background-color: $m-green;
+	@include text-flow();
+	color: $white;
+}
+.icon-footer{
+	color: $color-white;
+	width: 30px;
+}
+
+.sub-footer{
+	background-color: $d-green;
+	font-family: $s-font;
+	font-size: 14px;
+	color: $white;
+}
+
+/*Fale Conosco*/
+@mixin title-green{
+	font-family: $p-font;
+	font-size: 26px;
+	color: $l-green;
+	font-weight: bold;
+}
+
+.title-green{
+	@include title-green();
+}
 
