@@ -8059,14 +8059,39 @@ a.text-dark:focus, a.text-dark:hover {
 
 /** todo seu codigo vem aqui */
 /*Variáveis*/
-.title-default {
+/*Tipografias*/
+/*Cores*/
+/*Escala de cinza*/
+/*Escala de verde*/
+.title {
   font-family: "Roboto", sans-serif;
-  color: red;
-  background: black;
+  font-size: 28px;
+  color: #343a40;
+  font-weight: bold;
+}
+
+.row-title {
+  background-color: #01cb62;
+  height: 2px;
+  width: 100%;
 }
 
 .estilo-listagem {
   list-style-type: square;
+  color: #212529;
+}
+
+.text-flow {
+  font-size: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #212529;
+}
+
+.sub-title {
+  font-size: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #212529;
+  color: #495057;
 }
 
 /*# sourceMappingURL=style.css.map */
