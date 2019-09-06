@@ -125,7 +125,7 @@
 			    </li>
 
 			    <li class="page-item" aria-current="page">
-			      <span class="page-link active-pagination">
+			      <span class="page-link active-green">
 			        1
 			        <span class="sr-only">(current)</span>
 			      </span>
