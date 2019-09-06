@@ -14,6 +14,7 @@
 		$color-title: $gray-800;
 		$color-sub-title: $gray-700;
 		$color-white: $white;
+		$color-description: $gray-600;
 		
 		/*Escala de verde*/
 		$m-green: #006832;
@@ -27,6 +28,7 @@
 		color: $color-white;
 		font-family: $p-font;
 		font-size: 18px;
+		&:hover{background-color: $d-green;};
 	}
 
 
@@ -53,6 +55,7 @@
 	font-family: $s-font;
 	font-size: 16px;
 	color: $color-text;
+	line-height: 2;
 } 
 
 .text-flow{
@@ -121,8 +124,26 @@
 	color: $l-green;
 	&:hover{color: $d-green;};
 }
-.active-pagination{
+.active-green{
 	background-color: $l-green;
 	color: $color-white;
 }
+
+/*Visualizar Notícia*/
+.description-v-noticia{
+	font-family: $s-font;
+	font-size: 16px;
+	color: $gray-600;
+	line-height: 1.5;
+}
+
+.card-description-v-noticia{
+	font-family: $s-font;
+	font-size: 14px;
+	color: $gray-600;
+	line-height: 1.5;
+}
+
+
+
 

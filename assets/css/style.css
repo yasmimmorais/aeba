@@ -8070,6 +8070,9 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
 }
+.btn-l-green:hover {
+  background-color: #014c25;
+}
 
 /**/
 .title {
@@ -8094,12 +8097,14 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #212529;
+  line-height: 2;
 }
 
 .sub-title {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #212529;
+  line-height: 2;
   color: #495057;
 }
 
@@ -8108,6 +8113,7 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #212529;
+  line-height: 2;
   color: #fff;
 }
 
@@ -8153,6 +8159,7 @@ a.text-dark:focus, a.text-dark:hover {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   color: #212529;
+  line-height: 2;
   font-size: 14px;
 }
 
@@ -8163,9 +8170,24 @@ a.text-dark:focus, a.text-dark:hover {
   color: #014c25;
 }
 
-.active-pagination {
+.active-green {
   background-color: #01cb62;
   color: #fff;
+}
+
+/*Visualizar Notícia*/
+.description-v-noticia {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #868e96;
+  line-height: 1.5;
+}
+
+.card-description-v-noticia {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #868e96;
+  line-height: 1.5;
 }
 
 /*# sourceMappingURL=style.css.map */
