@@ -93,3 +93,36 @@
 	@include title-green();
 }
 
+/*Notícias*/
+.border-noticia{
+	border-left: 10px solid $l-green;
+	border-bottom: 10px solid $l-green; 
+}
+
+.card-title-noticia{
+	color: $color-title;
+	font-family: $p-font;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 1;
+
+	&:hover{
+	color: $l-green;
+	text-decoration: none;
+	}
+}
+
+.text-description{
+	@include text-flow();
+	font-size: 14px;
+}
+
+.page-link{
+	color: $l-green;
+	&:hover{color: $d-green;};
+}
+.active-pagination{
+	background-color: $l-green;
+	color: $color-white;
+}
+

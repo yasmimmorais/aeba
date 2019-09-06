@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
 	<!-- Meta tag obrigatória -->
 	<meta charset="UTF-8">
-	<title>AEBA - Associação dos Empresários do Bairro do Alecrim</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Yasmim Morais de Vasconcelos">
+	<title>Notícias - Associação dos Empresários do Bairro do Alecrim</title>
 
 	<!-- Link para a folha de estilo -->
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -13,34 +15,134 @@
 	
 	<!-- Links das fontes: Roboto e Open Sans -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
-</head>
 <body>
 	<!-- Breadcrumb -->
 	<section>
 		<nav aria-label="breadcrumb">
 		  <ol class="breadcrumb">
 		    <li class="breadcrumb-item"><a href="#">Página Inicial</a></li>
-		    <li class="breadcrumb-item active" aria-current="page">Conheça-nos</li>
+		    <li class="breadcrumb-item active" aria-current="page">Notícias</li>
 		  </ol>
 		</nav>
 	</section>
+	
+	<!-- Título da sessão Notícias --> 
+	<section class="container">
+		<div class="row">
+			<div class="col-lg-10 pt-4 mx-auto">
+				<h2 class="title pt-3 pb-1">Saiba de tudo que acontece na nossa associação!</h2>
+				<div class="row-title mb-5"></div>
+			</div>
+		</div>
+	</section>
 
-	<!-- Rodapé -->
-	<section class="container mt-5">
-		<div class="row footer pt-4">
-			<div class="col-sm-12 col-lg-6">
-				<p><img class="icon-footer mr-2" src="assets/img/email.svg" alt="Email">aeba.alecrim@email.com <img class="icon-footer ml-4 mr-2" src="assets/img/whatsapp.svg" alt="Whatsapp">(84) 9 8121 - 4551</p>
-			</div>
-			<div class="col-sm-12 col-lg-6 pb-4">
-				<img class="icon-footer mr-4 float-lg-right" src="assets/img/instagram.svg" alt="instagram">
-				<img class="icon-footer mr-4 sm-mx-auto float-lg-right" src="assets/img/facebook.svg" alt="Facebook">
-			</div>
+	<!-- Sessão dos cards das Notícias -->
+	<!-- Quando a tela for lg, cada card ocupa col-3, enquanto a primeira col (offset) fica vazia para manter centralizado o resto do conteúdo da row. Já quando a tela for md, os cards ocuparão col-4 e em sm col-12. 
+	-->
+	<section class="container">
+		<div class="row">
+			<div class="col-lg-3 mb-5 col-md-4 offset-lg-1">
+				<!-- Imagem -->
+				<img src="assets/img/image-noticia.png" class="card-img-top rounded-0 border-noticia" alt="...">
+			    <div class="card-body p-0 mt-3">
+			    	<!-- Título -->
+			      <a class="card-title-noticia" href="#">Evento na Assembléia para novas obras</a>
+			      <!-- Descrição -->
+			      <p class="card-text text-description mt-1">Presença dos membros do conselho para realização do feito em prol da população.</p>
+			      <p class="card-text"><small class="text-muted">Publicado em 05/09/2019</small></p>
+			    </div>
+			 </div>			
+			<div class="col-lg-3 mb-5 col-md-4">
+				<!-- Imagem -->
+				<img src="assets/img/image-noticia.png" class="card-img-top rounded-0 border-noticia" alt="...">
+			    <div class="card-body p-0 mt-3">
+			    	<!-- Título -->
+			      <a class="card-title-noticia" href="#">Evento na Assembléia para novas obras</a>
+			      <!-- Descrição -->
+			      <p class="card-text text-description mt-1">Presença dos membros do conselho para realização do feito em prol da população.</p>
+			      <p class="card-text"><small class="text-muted">Publicado em 05/09/2019</small></p>
+			    </div>
+			 </div>
+			<div class="col-lg-3 mb-5 col-md-4">
+				<!-- Imagem -->
+				<img src="assets/img/image-noticia.png" class="card-img-top rounded-0 border-noticia" alt="...">
+			    <div class="card-body p-0 mt-3">
+			    	<!-- Título -->
+			      <a class="card-title-noticia" href="#">Evento na Assembléia para novas obras</a>
+			      <!-- Descrição -->
+			      <p class="card-text text-description mt-1">Presença dos membros do conselho para realização do feito em prol da população.</p>
+			      <p class="card-text"><small class="text-muted">Publicado em 05/09/2019</small></p>
+			    </div>
+			 </div>
 		</div>
 
 		<div class="row">
-			<div class="sub-footer col text-center p-3">&copy 2019 - Associação dos Empresários do Bairro do Alecrim. Todos os direitos reservados.</div>
+			<div class="col-lg-3 mb-5 col-md-4 offset-lg-1">
+				<!-- Imagem -->
+				<img src="assets/img/image-noticia.png" class="card-img-top rounded-0 border-noticia" alt="...">
+			    <div class="card-body p-0 mt-3">
+			    	<!-- Título -->
+			      <a class="card-title-noticia" href="#">Evento na Assembléia para novas obras</a>
+			      <!-- Descrição -->
+			      <p class="card-text text-description mt-1">Presença dos membros do conselho para realização do feito em prol da população.</p>
+			      <p class="card-text"><small class="text-muted">Publicado em 05/09/2019</small></p>
+			    </div>
+			 </div>
+			<div class="col-lg-3 mb-5 col-md-4">
+				<!-- Imagem -->
+				<img src="assets/img/image-noticia.png" class="card-img-top rounded-0 border-noticia" alt="...">
+			    <div class="card-body p-0 mt-3">
+			    	<!-- Título -->
+			      <a class="card-title-noticia" href="#">Evento na Assembléia para novas obras</a>
+			      <!-- Descrição -->
+			      <p class="card-text text-description mt-1">Presença dos membros do conselho para realização do feito em prol da população.</p>
+			      <p class="card-text"><small class="text-muted">Publicado em 05/09/2019</small></p>
+			    </div>
+			 </div>
+			<div class="col-lg-3 mb-5 col-md-4">
+				<!-- Imagem -->
+				<img src="assets/img/image-noticia.png" class="card-img-top rounded-0 border-noticia" alt="...">
+			    <div class="card-body p-0 mt-3">
+			    	<!-- Título -->
+			      <a class="card-title-noticia" href="#">Evento na Assembléia para novas obras</a>
+			      <!-- Descrição -->
+			      <p class="card-text text-description mt-1">Presença dos membros do conselho para realização do feito em prol da população.</p>
+			      <p class="card-text"><small class="text-muted">Publicado em 05/09/2019</small></p>
+			    </div>
+			 </div>
+		</div>			
 		</div>
 	</section>
 	
+	<!-- Paginação -->
+	<section class="container mt-3">
+		<div class="row">
+			<div class="offset-lg-4 col">
+			<nav aria-label="...">
+			  <ul class="pagination">
+			    <li class="page-item disabled">
+			      <span class="page-link">Anterior</span>
+			    </li>
+
+			    <li class="page-item" aria-current="page">
+			      <span class="page-link active-pagination">
+			        1
+			        <span class="sr-only">(current)</span>
+			      </span>
+			    </li>
+
+			    <li class="page-item"><a class="page-link" href="#">2</a></li>
+
+			    <li class="page-item"><a class="page-link" href="#">3</a></li>
+
+			    <li class="page-item">
+			      <a class="page-link" href="#">Próximo</a>
+			    </li>
+			  </ul>
+			</nav>
+			</div>
+		</div>
+	</section>
+
 </body>
 </html>
