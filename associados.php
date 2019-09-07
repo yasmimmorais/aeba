@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Yasmim Morais de Vasconcelos">
-	<title>Notícias - Associação dos Empresários do Bairro do Alecrim</title>
+	<title>Associados - Associação dos Empresários do Bairro do Alecrim</title>
 
 	<!-- Link para a folha de estilo -->
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -49,22 +49,112 @@
 
 				<!-- Lista de Categorias das empresas -->
 				<div class="list-group mr-lg-5">
-				  <a href="#" class="list-group-item list-group-item-action active-green">
-				    Cras justo odio
-				  </a>
-				  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-				  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-				  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-				  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-				  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-				  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-				  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-				  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
-				  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
-				  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
+					  <a href="#" class="list-group-item list-group-item-action active-green">
+					    Cras justo odio
+					  </a>
+					  <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+					  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+					  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+					  <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+					  <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+					  <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
+					</div>
 				</div>
+				
+				<!-- Listagem dos cards das empresas -->
+				<div class="col-lg-8 mx-auto">
+					<div class="card mb-3 border">
+					  <div class="row no-gutters ">
+					    <div class="col-md-4">
+					    <!-- Logo da empresa -->
+					      <img class="mb-0" src="assets/img/logo-empresa.png" style="width: 100%;" class="" alt="Imagem da Notícia">
+					    </div>
+					    <div class="col-md-8">
+					      <div class="card-body">
+					      	<!-- Nome da empresa -->
+					        <a href="#"><h5 class="title-card-empresa">Nome da empresa</h5></a>
+					        <!-- Categoria da empresa -->
+					        <a href="#">Categoria do ramo<br></a>	
+					        <!-- Endereço e link para o mapa -->
+					        <br>
+					        <b>Endereço:</b> <a href="#">RUA DAS AMOREIRAS - 342, LAGOA NOVA - RN</a><br>	
+							<b>Telefone:</b> <a href="#">(84) 9 9999-9999</a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+					<div class="card mb-3 border">
+					  <div class="row no-gutters ">
+					    <div class="col-md-4">
+					    <!-- Logo da empresa -->
+					      <img class="mb-0" src="assets/img/logo-empresa.png" style="width: 100%;" class="" alt="Imagem da Notícia">
+					    </div>
+					    <div class="col-md-8">
+					      <div class="card-body">
+					      	<!-- Nome da empresa -->
+					        <a href="#"><h5 class="title-card-empresa">Nome da empresa</h5></a>
+					        <!-- Categoria da empresa -->
+					        <a href="#">Categoria do ramo<br></a>	
+					        <!-- Endereço e link para o mapa -->
+					        <br>
+					        <b>Endereço:</b> <a href="#">RUA DAS AMOREIRAS - 342, LAGOA NOVA - RN</a><br>	
+							<b>Telefone:</b> <a href="#">(84) 9 9999-9999</a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+
+					<div class="card mb-3 border">
+					  <div class="row no-gutters ">
+					    <div class="col-md-4">
+					    <!-- Logo da empresa -->
+					      <img class="mb-0" src="assets/img/logo-empresa.png" style="width: 100%;" class="" alt="Imagem da Notícia">
+					    </div>
+					    <div class="col-md-8">
+					      <div class="card-body">
+					      	<!-- Nome da empresa -->
+					        <a href="#"><h5 class="title-card-empresa">Nome da empresa</h5></a>
+					        <!-- Categoria da empresa -->
+					        <a href="#">Categoria do ramo<br></a>	
+					        <!-- Endereço e link para o mapa -->
+					        <br>
+					        <b>Endereço:</b> <a href="#">RUA DAS AMOREIRAS - 342, LAGOA NOVA - RN</a><br>	
+							<b>Telefone:</b> <a href="#">(84) 9 9999-9999</a>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+			</div>		
+	</section>
+
+	<!-- Paginação -->
+	<section class="container mt-3">
+		<div class="row">
+			<div class="offset-lg-4 col">
+			<nav aria-label="...">
+			  <ul class="pagination">
+			    <li class="page-item disabled">
+			      <span class="page-link">Anterior</span>
+			    </li>
+
+			    <li class="page-item" aria-current="page">
+			      <span class="page-link active-green">
+			        1
+			        <span class="sr-only">(current)</span>
+			      </span>
+			    </li>
+
+			    <li class="page-item"><a class="page-link" href="#">2</a></li>
+
+			    <li class="page-item"><a class="page-link" href="#">3</a></li>
+
+			    <li class="page-item">
+			      <a class="page-link" href="#">Próximo</a>
+			    </li>
+			  </ul>
+			</nav>
 			</div>
-			<div class="col-lg-8"></div>
 		</div>
 	</section>
 

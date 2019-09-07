@@ -89,7 +89,7 @@
 				    </div>
 				    <div class="col-md-8">
 				      <div class="card-body pt-lg-1 pt-sm-3">
-				        <h5 class="card-title title-green">Título da notícia</h5>
+				        <a href="#"><h5 class="card-title title-card-noticia">Título da notícia</h5></a>	
 				        <p class="card-text card-description-v-noticia">Aliquam erat volutpat. Aliquam pretium odio non leo semper efficitur. Vivamus rhoncus, sem eu luctus interdum, nibh nunc commodo odio, a auctor lacus ante eget odio. In ac fermentum nulla.</p>
 				        <p class="card-text"><small class="text-muted">Publicado em 05/09/2019</small></p>
 				      </div>
@@ -110,7 +110,7 @@
 				    </div>
 				    <div class="col-md-8">
 				      <div class="card-body pt-lg-1 pt-sm-3">
-				        <h5 class="card-title title-green">Título da notícia</h5>
+				      	<a href="#"><h5 class="card-title title-card-noticia">Título da notícia</h5></a>			
 				        <p class="card-text card-description-v-noticia">Aliquam erat volutpat. Aliquam pretium odio non leo semper efficitur. Vivamus rhoncus, sem eu luctus interdum, nibh nunc commodo odio, a auctor lacus ante eget odio. In ac fermentum nulla.</p>
 				        <p class="card-text"><small class="text-muted">Publicado em 05/09/2019</small></p>
 				      </div>
