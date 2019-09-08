@@ -8118,7 +8118,7 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .icon-footer {
-  color: #fff;
+  fill: white;
   width: 30px;
 }
 
@@ -8223,6 +8223,52 @@ a:hover {
   color: #343a40;
   font-size: 20px;
   font-weight: bold;
+}
+
+/*Início*/
+.bene-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  color: white;
+}
+
+.btn-home {
+  border-radius: 5px;
+  border: 1px solid #343a40;
+  background-color: white;
+  font-weight: bold;
+  color: #01cb62;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+.btn-home:hover {
+  background-color: #01cb62;
+  color: white;
+  border: 1px solid #01cb62;
+}
+
+.logo-empresa {
+  width: 200px;
+}
+
+.title-pesquisa {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #343a40;
+}
+
+.btn-menu {
+  border-radius: 5px;
+  border: 1px solid #28a745;
+  background-color: white;
+  color: #28a745;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+.btn-menu:hover {
+  background-color: #01cb62;
+  color: white;
+  border: 1px solid #01cb62;
 }
 
 /*# sourceMappingURL=style.css.map */
