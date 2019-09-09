@@ -8232,6 +8232,12 @@ a:hover {
   color: white;
 }
 
+.desc-bene {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
 .btn-home {
   border-radius: 5px;
   border: 1px solid #343a40;
@@ -8259,16 +8265,21 @@ a:hover {
 
 .btn-menu {
   border-radius: 5px;
-  border: 1px solid #28a745;
+  border: 1px solid #014c25;
   background-color: white;
-  color: #28a745;
+  color: #014c25;
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 14px;
 }
 .btn-menu:hover {
   background-color: #01cb62;
   color: white;
   border: 1px solid #01cb62;
+}
+
+.tam-div-bene {
+  width: 100px;
+  height: 150px;
 }
 
 /*# sourceMappingURL=style.css.map */

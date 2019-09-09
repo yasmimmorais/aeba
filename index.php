@@ -19,72 +19,77 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+	<!-- Ícone do whatsapp fixo -->
+	<a href="https://api.whatsapp.com/send?l=pt&amp;phone=558481214551"><img src="https://i.imgur.com/ryESuZ5.png" style="height:60px; position:fixed; bottom: 25px; right: 25px; z-index:99999;" data-selector="img"></a>
+
 	<!-- Menu -->
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white">
+	<section>
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white border">
 
-	  <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
-	    <span class="navbar-toggler-icon"></span>
-	  </button>
+		  <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
 
-	  <a class="navbar-brand ml-5" href="#">Navbar</a>
+		  <a class="navbar-brand ml-5" href="#"><img src="assets/img/logo-menu.jpg" style="width: 120px;" alt=""></a>
 
-	  <div class="collapse navbar-collapse m-3" id="navbarTogglerDemo03">
-	    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="#">Início<span class="sr-only">(Página atual)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Conheça-nos</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Associados</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Produtos/Serviços</a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="#">Fale conosco</a>
-	      </li>
-	    </ul>
+		  <div class="collapse navbar-collapse m-3" id="navbarTogglerDemo03">
+		    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Início<span class="sr-only">(Página atual)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Conheça-nos</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Associados</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Produtos/Serviços</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Fale conosco</a>
+		      </li>
+		    </ul>
 
-	    <a href="eita"><button type="submit" class="btn btn-home pl-4 pr-4 mr-5">Área do Associado</button></a>
-	  </div>
-	</nav>
-
+		    <a href="eita"><button type="submit" class="btn btn-menu pl-4 pr-4 mr-5">Área do Associado</button></a>
+		  </div>
+		</nav>
+	</section>
 
 	<!-- Carrossel de divulgações -->
-	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-	  <ol class="carousel-indicators">
-	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-	  </ol>
-	  <div class="carousel-inner">
-	    <div class="carousel-item active">
-	      <img class="d-block w-100" src="assets/img/banner-divulgacao.png" alt="Primeiro Slide">
-	    </div>
-	    <div class="carousel-item">
-	      <img class="d-block w-100" src="assets/img/banner-divulgacao-2.png" alt="Segundo Slide">
-	    </div>
-	    <div class="carousel-item">
-	      <img class="d-block w-100" src="assets/img/banner-divulgacao.png" alt="Terceiro Slide">
-	    </div>
-	  </div>
-	  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Anterior</span>
-	  </a>
-	  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-	    <span class="sr-only">Próximo</span>
-	  </a>
-</div>
+	<section class="mt-5">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="assets/img/banner-divulgacao.png" alt="Primeiro Slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="assets/img/banner-divulgacao-2.png" alt="Segundo Slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="assets/img/banner-divulgacao.png" alt="Terceiro Slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Anterior</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Próximo</span>
+		  </a>
+		</div>
+	</section>
 
 	<!-- Barra de pesquisa -->
 	<section class="container">
 		<div class="row"><h4 class="title-pesquisa mx-auto mt-5">O que você está procurando?</h4>
 			<div class="col-12">
-
 				<nav class="navbar navbar-light">
 				  <form class="form-inline mx-auto mt-2 mb-5">
 				    <input class="form-control mr-sm-2" type="search" placeholder="Pesquise aqui" aria-label="Pesquisar">
@@ -97,65 +102,83 @@
 
 	<!-- Ícones dos benefícios e suas descrições -->
 	<section class="container-fluid bg-success mt-3 pt-2">
-		<div class="container col-lg-8 col-md-12">
+		<div class="container col-lg-8 col-md-12 mx-auto">
+			<!-- Título da sessão de benefícios -->
 			<div class="row">
-				<h2 class="bene-title pt-3 pb-1 mx-auto mb-4">Principais Benefícios do Associado</h2>
+				<h2 class="bene-title pt-3 pb-1 mx-auto mb-5">Principais Benefícios do Associado</h2>
 			</div>
-			<div class="row mx-auto">
-				<div class="text-center mb-3 mr-5 ml-5">
-				<!-- Imagem do produto -->
-				<img src="assets/img/b-1.png" alt="">
-			  	<!-- Descrição do ícone -->
-				<p style="font-family: 'Roboto', sans-serif; font-size: 14px; color: white;">Ações promocionais</p>				  
+
+			<div class="row">
+				<div class="tam-div-bene mb-3 mr-5 ml-5">
+					<div class="text-center">
+					<!-- Imagem do produto -->
+					<img src="assets/img/b-1.png" alt="">
+				  	<!-- Descrição do ícone -->
+					<p class="desc-bene">Ações promocionais</p>				  
+				</div>
 				</div>
 
-				<div class="text-center mb-3 mr-5 ml-5">
-				<!-- Imagem do produto -->
-				<img src="assets/img/b-2.png" alt="">
-			  	<!-- Descrição do ícone -->
-				<p style="font-family: 'Roboto', sans-serif; font-size: 14px; color: white;">Treinamentos</p>				  
+				<div class="tam-div-bene mb-3 mr-5 ml-5">
+					<div class="text-center ">
+					<!-- Imagem do produto -->
+					<img src="assets/img/b-2.png" alt="">
+				  	<!-- Descrição do ícone -->
+					<p class="desc-bene">Treinamentos</p>				  
+					</div>
 				</div>
 
-				<div class="text-center mb-3 mr-5 ml-5">
-				<!-- Imagem do produto -->
-				<img src="assets/img/b-3.png" alt="">
-			  	<!-- Descrição do ícone -->
-				<p style="font-family: 'Roboto', sans-serif; font-size: 14px; color: white;">Participação em<br> eventos</p>				  
+				<div class="tam-div-bene mb-3 mr-5 ml-5">
+					<div class="text-center ">
+					<!-- Imagem do produto -->
+					<img src="assets/img/b-3.png" alt="">
+				  	<!-- Descrição do ícone -->
+					<p class="desc-bene">Participação<br> em eventos</p>				  
+					</div>
 				</div>
 
-				<div class="text-center mb-3 mr-5 ml-5">
-				<!-- Imagem do produto -->
-				<img src="assets/img/b-4.png" alt="">
-			  	<!-- Descrição do ícone -->
-				<p style="font-family: 'Roboto', sans-serif; font-size: 14px; color: white;">Divulgação</p>				  
+				<div class="tam-div-bene mb-3 mr-5 ml-5">
+					<div class="text-center ">
+					<!-- Imagem do produto -->
+					<img src="assets/img/b-4.png" alt="">
+				  	<!-- Descrição do ícone -->
+					<p class="desc-bene">Divulgação</p>				  
+					</div>
 				</div>
 
-				<div class="text-center mb-3 mr-5 ml-5">
-				<!-- Imagem do produto -->
-				<img src="assets/img/b-5.png" alt="">
-			  	<!-- Descrição do ícone -->
-				<p style="font-family: 'Roboto', sans-serif; font-size: 14px; color: white;">Networks com<br> empresários</p>				  
+				<div class="tam-div-bene mb-3 mr-5 ml-5">
+					<div class="text-center ">
+					<!-- Imagem do produto -->
+					<img src="assets/img/b-5.png" alt="">
+				  	<!-- Descrição do ícone -->
+					<p class="desc-bene">Networks com<br> empresários</p>				  
+					</div>
 				</div>
 
-				<div class="text-center mb-3 mr-5 ml-5">
-				<!-- Imagem do produto -->
-				<img src="assets/img/b-6.png" alt="">
-			  	<!-- Descrição do ícone -->
-				<p style="font-family: 'Roboto', sans-serif; font-size: 14px; color: white;">Desconto com <br>parceiros<br> conveniados</p>				  
+				<div class="tam-div-bene mb-3 mr-5 ml-5">
+					<div class="text-center ">
+					<!-- Imagem do produto -->
+					<img src="assets/img/b-6.png" alt="">
+				  	<!-- Descrição do ícone -->
+					<p class="desc-bene">Desconto com <br>parceiros conveniados</p>				  
+					</div>
 				</div>
 
-				<div class="text-center mb-3 mr-5 ml-5">
-				<!-- Imagem do produto -->
-				<img src="assets/img/b-7.png" alt="">
-			  	<!-- Descrição do ícone -->
-				<p style="font-family: 'Roboto', sans-serif; font-size: 14px; color: white;">Participação em<br> eventos</p>				  
+				<div class="tam-div-bene mb-3 mr-5 ml-5">
+					<div class="text-center ">
+					<!-- Imagem do produto -->
+					<img src="assets/img/b-7.png" alt="">
+				  	<!-- Descrição do ícone -->
+					<p class="desc-bene">Participação<br> em eventos</p>				  
+					</div>
 				</div>
 
-				<div class="text-center mb-3 mr-5 ml-5">
-				<!-- Imagem do produto -->
-				<img src="assets/img/b-8.png" alt="">
-			  	<!-- Descrição do ícone -->
-				<p style="font-family: 'Roboto', sans-serif; font-size: 14px; color: white;">Descontos em<br> eventos<br> patrocinados</p>				  
+				<div class="tam-div-bene mb-3 mr-5 ml-5">
+					<div class="text-center ">
+					<!-- Imagem do produto -->
+					<img src="assets/img/b-8.png" alt="">
+				  	<!-- Descrição do ícone -->
+					<p class="desc-bene">Descontos em<br> eventos patrocinados</p>				  
+					</div>
 				</div>
 			</div>
 		</div>
@@ -247,7 +270,7 @@
 		<div class="row mx-auto">
 			<div class="col-lg-1 col-md-0 col-sm-0"></div>
 			<div class="col-lg-4 col-sm-12 pr-lg-4 p-sm-4"><br>
-				<div class="title-green mt-sm-2">Podemos te ajudar com algo ou deseja se tornar um associado? </div>
+				<div class="title-green mt-lg-0 mt-sm-2">Podemos te ajudar com algo ou deseja se tornar um associado? </div>
 				<div class="text-flow">
 					<br>
 					<p class="text-flow">Envie-nos uma mensagem por meio deste formulário ou, se preferir, para o email aeba.alecrim@email.com ou whatsapp (84) 9 8121 - 4551.</p> 
@@ -306,8 +329,8 @@
 				<p><img class="icon-footer mr-2" src="assets/img/whatsapp.png" alt="Whatsapp">(84) 9 8121 - 4551</p>
 			</div>
 			<div class="col-sm-12 col-lg-6 pb-4">
-				<a href="#"><img class="icon-footer mr-4 float-lg-right" src="assets/img/instagram.png" alt="instagram"></a>
-				<a href=""><img class="icon-footer mr-4 sm-mx-auto float-lg-right" src="assets/img/facebook.png" alt="Facebook"></a>
+				<a href="https://instagram.com/aebaalecrim/"><img class="icon-footer mr-4 float-lg-right" src="assets/img/instagram.png" alt="instagram"></a>
+				<a href="https://www.facebook.com/AEBAALECRIM/"><img class="icon-footer mr-4 sm-mx-auto float-lg-right" src="assets/img/facebook.png" alt="Facebook"></a>
 			</div>
 		</div>
 	</div>
@@ -318,5 +341,11 @@
 			<div class="sub-footer col text-center p-3">&copy 2019 - Associação dos Empresários do Bairro do Alecrim. Todos os direitos reservados.</div>
 		</div>
 	</section>
+
+
+	<!-- Plugins -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
