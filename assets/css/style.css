@@ -8088,6 +8088,10 @@ a.text-dark:focus, a.text-dark:hover {
   width: 100%;
 }
 
+.dropdown-mobile {
+  background-color: #01cb62;
+}
+
 .estilo-listagem {
   list-style-type: square;
   color: #212529;

@@ -45,6 +45,10 @@
 	width: 100%;
 }
 
+.dropdown-mobile{
+	background-color: $l-green;
+}
+
 .estilo-listagem{
 	list-style-type:square;
 	color: $color-text;
@@ -201,3 +205,4 @@ a{&:hover{text-decoration: none;}}
 	width: 100px;
 	height: 150px;
 }
+

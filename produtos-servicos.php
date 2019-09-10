@@ -3,7 +3,7 @@
 <head>
 	<!-- Meta tag obrigatória -->
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="author" content="Yasmim Morais de Vasconcelos">
 	<title>Produtos & Serviços - Associação dos Empresários do Bairro do Alecrim</title>
 
@@ -27,7 +27,7 @@
 		</nav>
 	</section>
 
-	<!-- Título da sessão Notícias --> 
+	<!-- Título da sessão Produtos & Notícias --> 
 	<section class="container">
 		<div class="row">
 			<div class="col-lg-12 pt-4 mx-auto">
@@ -47,6 +47,19 @@
 				    <button class="ml-lg-1 btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
 				</form>
 
+				<!-- Dropdown para o mobile -->
+				<div class="dropdown">
+				  <a class="mb-3 btn btn-secondary dropdown-toggle" style="background-color: #01cb62; border:0;" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    Categorias
+				  </a>
+
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				    <a class="dropdown-item" href="#">Action</a>
+				    <a class="dropdown-item" href="#">Another action</a>
+				    <a class="dropdown-item" href="#">Something else here</a>
+				  </div>
+				</div>
+
 				<!-- Lista de Categorias dos Produtos & Serviços -->
 				<div class="list-group mr-lg-5">
 					  <a href="#" class="list-group-item list-group-item-action active-green">
@@ -65,11 +78,11 @@
 				<div class="col-lg-8 mx-auto">
 					<div class="card mb-3 border">
 					  <div class="row no-gutters ">
-					    <div class="col-md-4">
+					    <div class="col-md-4 col-sm-6">
 					    <!-- Logo da empresa -->
 					      <img class="mb-0" src="assets/img/logo-empresa.png" style="width: 100%;" class="" alt="Imagem da Notícia">
 					    </div>
-					    <div class="col-md-8">
+					    <div class="col-md-8 col-sm-6">
 					      <div class="card-body">
 					      	<!-- Nome da empresa -->
 					        <a href="#"><h5 class="title-card-empresa">Nome da empresa</h5></a>
@@ -84,11 +97,11 @@
 
 					<div class="card mb-3 border">
 					  <div class="row no-gutters ">
-					    <div class="col-md-4">
+					    <div class="col-md-4 col-sm-6">
 					    <!-- Logo da empresa -->
 					      <img class="mb-0" src="assets/img/logo-empresa.png" style="width: 100%;" class="" alt="Imagem da Notícia">
 					    </div>
-					    <div class="col-md-8">
+					    <div class="col-md-8 col-sm-6">
 					      <div class="card-body">
 					      	<!-- Nome da empresa -->
 					        <a href="#"><h5 class="title-card-empresa">Nome da empresa</h5></a>
@@ -103,11 +116,11 @@
 
 					<div class="card mb-3 border">
 					  <div class="row no-gutters ">
-					    <div class="col-md-4">
+					    <div class="col-md-4 col-sm-6">
 					    <!-- Logo da empresa -->
 					      <img class="mb-0" src="assets/img/logo-empresa.png" style="width: 100%;" class="" alt="Imagem da Notícia">
 					    </div>
-					    <div class="col-md-8">
+					    <div class="col-md-8 col-sm-6">
 					      <div class="card-body">
 					      	<!-- Nome da empresa -->
 					        <a href="#"><h5 class="title-card-empresa">Nome da empresa</h5></a>
@@ -152,6 +165,9 @@
 		</div>
 	</section>
 
+	<!-- Plugins -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-
 </html>

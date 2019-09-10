@@ -3,7 +3,7 @@
 <head>
 	<!-- Meta tag obrigatória -->
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="author" content="Yasmim Morais de Vasconcelos">
 	<title>Conheça-nos - Associação dos Empresários do Bairro do Alecrim</title>
 
