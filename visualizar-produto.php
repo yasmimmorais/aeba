@@ -29,7 +29,7 @@
 	</section>
 
 			<!-- Informações sobre o produto selecionado -->
-			<div class="col-lg-8 mx-auto  mt-4">
+			<div class="col-lg-8 mx-auto mt-4">
 				<div class="card  border">
 				  <div class="row no-gutters ">
 				    <div class="">

@@ -84,7 +84,7 @@
 					      <img class="mb-0" src="assets/img/logo-empresa.png" style="width: 100%;" class="" alt="Imagem da Notícia">
 					    </div>
 					    <div class="col-md-8 col-sm-7">
-					      <div class="card-body pt-2">
+					      <div class="card-body pt-lg-3 pl-lg-3 pl-sm-0 pr-sm-0">
 					      	<!-- Nome da empresa -->
 					        <a href="#"><h5 class="title-card-empresa">Nome da empresa</h5></a>
 					        <!-- Categoria da empresa -->
@@ -103,7 +103,7 @@
 
 
 					<!-- Produtos ofertados pela empresa -->
-					<div class="row">
+					<div class="row card-produto">
 						<div class="card m-3" style="width: 12rem;">
 						<!-- Imagem do produto -->
 						  <img class="card-img-top" src="assets/img/produto.jpg" alt="Imagem de capa do card">

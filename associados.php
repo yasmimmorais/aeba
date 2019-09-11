@@ -38,18 +38,18 @@
 	</section>
 
 	<!-- Barra de pesquisa e lista de categorias -->
-	<section class="container">
+	<section class="container ">
 		<div class="row">
 			<div class="col-lg-4">
 				<!-- Barra de pesquisa -->
-				<form class="form-inline mb-3">
+				<form class="form-inline mb-3 ">
 				    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
 				    <button class="ml-lg-1 btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
 				</form>
 
 				<!-- Dropdown para o mobile -->
 				<div class="dropdown">
-				  <a class="mb-3 btn btn-secondary dropdown-toggle" style="background-color: #01cb62; border:0;" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  <a class="drop mb-3 btn btn-secondary dropdown-toggle" style="background-color: #01cb62; border:0;" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				    Categorias
 				  </a>
 
