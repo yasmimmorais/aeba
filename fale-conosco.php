@@ -18,12 +18,12 @@
 <body>
 	<!-- Breadcrumb -->
 	<section>
-		<nav aria-label="breadcrumb">
+		<div aria-label="breadcrumb">
 		  <ol class="breadcrumb">
 		    <li class="breadcrumb-item"><a href="#">Página Inicial</a></li>
 		    <li class="breadcrumb-item active" aria-current="page">Fale Conosco</li>
 		  </ol>
-		</nav>
+		</div>
 	</section>
 
 	<!-- Formulário da sessão Fale Conosco -->

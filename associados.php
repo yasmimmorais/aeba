@@ -41,12 +41,21 @@
 	<section class="container ">
 		<div class="row">
 			<div class="col-lg-4">
+
+				<div class="input-group mb-3 text-center ">
+					<input type="text" class="form-control" placeholder="Sua busca" aria-label="Sua busca" aria-describedby="button-addon2">
+					<div class="input-group-append">
+						<button class="btn btn-outline-secondary bg-success text-light border-0 mr-md-5" type="button" id="button-addon2">Pesquisar</button>
+					</div>
+				</div>
+	
+
 				<!-- Barra de pesquisa -->
-				<form class="form-inline mb-3 ">
+			<!-- 	<form class="form-inline mb-3 ">
 				    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
 				    <button class="ml-lg-1 btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
 				</form>
-
+ -->
 				<!-- Dropdown para o mobile -->
 				<div class="dropdown">
 				  <a class="drop mb-3 btn btn-secondary dropdown-toggle" style="background-color: #01cb62; border:0;" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -76,7 +85,7 @@
 				
 				<!-- Listagem dos cards das empresas -->
 				<div class="col-lg-8 mx-auto">
-					<div class="card mb-3 border">
+					<div class="card mb-4 border">
 					  <div class="row no-gutters ">
 					    <div class="col-md-4">
 					    <!-- Logo da empresa -->
@@ -89,7 +98,7 @@
 					        <!-- Categoria da empresa -->
 					        <a href="#">Categoria do ramo<br></a>	
 					        <!-- Endereço e link para o mapa -->
-					        <br>
+					        
 					        <b>Endereço:</b> <a href="#">RUA DAS AMOREIRAS - 342, LAGOA NOVA - RN</a><br>	
 							<b>Telefone:</b> <a href="#">(84) 9 9999-9999</a>
 					      </div>
@@ -97,7 +106,7 @@
 					  </div>
 					</div>
 
-					<div class="card mb-3 border">
+					<div class="card mb-4 border">
 					  <div class="row no-gutters ">
 					    <div class="col-md-4">
 					    <!-- Logo da empresa -->
@@ -110,7 +119,7 @@
 					        <!-- Categoria da empresa -->
 					        <a href="#">Categoria do ramo<br></a>	
 					        <!-- Endereço e link para o mapa -->
-					        <br>
+					        
 					        <b>Endereço:</b> <a href="#">RUA DAS AMOREIRAS - 342, LAGOA NOVA - RN</a><br>	
 							<b>Telefone:</b> <a href="#">(84) 9 9999-9999</a>
 					      </div>
@@ -118,7 +127,7 @@
 					  </div>
 					</div>
 
-					<div class="card mb-3 border">
+					<div class="card mb-4 border">
 					  <div class="row no-gutters ">
 					    <div class="col-md-4">
 					    <!-- Logo da empresa -->
@@ -131,7 +140,7 @@
 					        <!-- Categoria da empresa -->
 					        <a href="#">Categoria do ramo<br></a>	
 					        <!-- Endereço e link para o mapa -->
-					        <br>
+					        
 					        <b>Endereço:</b> <a href="#">RUA DAS AMOREIRAS - 342, LAGOA NOVA - RN</a><br>	
 							<b>Telefone:</b> <a href="#">(84) 9 9999-9999</a>
 					      </div>
