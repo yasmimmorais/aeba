@@ -51,31 +51,35 @@
 		  </a>
 		</div>
 	</section>
-
+	
 	<!-- Barra de pesquisa -->
-	<section class="container">
-		<div class="row"><h4 class="title-pesquisa mx-auto mt-5">O que você está procurando?</h4>
+	<section class="container mt-3 pb-3">
+		<div class="row">
 			<div class="col-12">
-				<nav class="navbar navbar-light">
-				  <form class="form-inline mx-auto mt-2 mb-5">
-				    <input class="form-control mr-sm-2" type="search" placeholder="Pesquise aqui" aria-label="Pesquisar">
-				    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-				  </form>
-				</nav>
+				<h2 class="text-center mx-auto mt-5 h3">O que você está procurando?</h2>
+
+				<div class="input-group mb-3 text-center">
+					<input type="text" class="form-control" placeholder="O que você está procurando?" aria-label="O que você está procurando?" aria-describedby="button-addon2">
+					<div class="input-group-append">
+						<button class="btn btn-outline-secondary bg-success text-light" type="button" id="button-addon2">Pesquisar</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
 
+
 	<!-- Ícones dos benefícios e suas descrições -->
-	<section class="container-fluid bg-success mt-3 pt-2">
-		<div class="container col-lg-8 col-md-12">
+	<section class="container-fluid bg-success mt-5 pt-2">
+		<div class="container col-lg-8 col-md-12 pb-5">
 			<!-- Título da sessão de benefícios -->
 			<div class="row">
 				<h2 class="mx-auto bene-title pt-3 pb-1 mb-5">Principais Benefícios do Associado</h2>
 			</div>
 
 			<div class="row mx-auto">
-				<div class="tam-div-bene mb-3 mr-5 ml-5">
+
+				<div class="col-md-3 col-sm-6 col-6 mt-2">
 					<div class="text-center">
 					<!-- Imagem do produto -->
 					<img src="assets/img/b-1.png" alt="">
@@ -84,7 +88,7 @@
 					</div>
 				</div>
 
-				<div class="tam-div-bene mb-3 mr-5 ml-5">
+				<div class="col-md-3 col-sm-6 col-6 mt-2">
 					<div class="text-center ">
 					<!-- Imagem do produto -->
 					<img src="assets/img/b-2.png" alt="">
@@ -93,7 +97,7 @@
 					</div>
 				</div>
 
-				<div class="tam-div-bene mb-3 mr-5 ml-5">
+				<div class="col-md-3 col-sm-6 col-6 mt-2">
 					<div class="text-center ">
 					<!-- Imagem do produto -->
 					<img src="assets/img/b-3.png" alt="">
@@ -102,7 +106,7 @@
 					</div>
 				</div>
 
-				<div class="tam-div-bene mb-3 mr-5 ml-5">
+				<div class="col-md-3 col-sm-6 col-6 mt-2">
 					<div class="text-center ">
 					<!-- Imagem do produto -->
 					<img src="assets/img/b-4.png" alt="">
@@ -111,7 +115,7 @@
 					</div>
 				</div>
 
-				<div class="tam-div-bene mb-3 mr-5 ml-5">
+				<div class="col-md-3 col-sm-6 col-6 mt-2">
 					<div class="text-center ">
 					<!-- Imagem do produto -->
 					<img src="assets/img/b-5.png" alt="">
@@ -120,7 +124,7 @@
 					</div>
 				</div>
 
-				<div class="tam-div-bene mb-3 mr-5 ml-5">
+				<div class="col-md-3 col-sm-6 col-6 mt-2">
 					<div class="text-center ">
 					<!-- Imagem do produto -->
 					<img src="assets/img/b-6.png" alt="">
@@ -129,7 +133,7 @@
 					</div>
 				</div>
 
-				<div class="tam-div-bene mb-3 mr-5 ml-5">
+				<div class="col-md-3 col-sm-6 col-6 mt-2">
 					<div class="text-center ">
 					<!-- Imagem do produto -->
 					<img src="assets/img/b-7.png" alt="">
@@ -138,7 +142,7 @@
 					</div>
 				</div>
 
-				<div class="tam-div-bene mb-3 mr-5 ml-5">
+				<div class="col-md-3 col-sm-6 col-6 mt-2">
 					<div class="text-center ">
 					<!-- Imagem do produto -->
 					<img src="assets/img/b-8.png" alt="">
@@ -160,7 +164,7 @@
 		</div>
 
 		<div class="row">
-			<div class="col-lg-3 mb-5 col-md-4 offset-lg-1">
+			<div class="col-lg-3 mb-5 col-md-4">
 				<!-- Imagem -->
 				<img src="assets/img/image-noticia.png" class="card-img-top rounded-0 border-noticia" alt="...">
 			    <div class="card-body p-0 mt-3">
@@ -193,6 +197,17 @@
 			      <p class="card-text"><small class="text-muted">Publicado em 05/09/2019</small></p>
 			    </div>
 			 </div>
+			 <div class="col-lg-3 mb-5 col-md-4">
+				<!-- Imagem -->
+				<img src="assets/img/image-noticia.png" class="card-img-top rounded-0 border-noticia" alt="...">
+			    <div class="card-body p-0 mt-3">
+			    	<!-- Título -->
+			      <a class="card-title-noticia" href="#">Evento na Assembléia para novas obras</a>
+			      <!-- Descrição -->
+			      <p class="card-text text-description mt-1">Presença dos membros do conselho para realização do feito em prol da população.</p>
+			      <p class="card-text"><small class="text-muted">Publicado em 05/09/2019</small></p>
+			    </div>
+			 </div>
 
 			<div class="col-12 text-center">
 				<a href="eita"><button type="submit" class="btn btn-home pl-4 pr-4">Ler mais notícias</button></a>
@@ -208,13 +223,21 @@
 				<div class="row-title mb-5"></div>		
 			</div>
 		</div>
-		<div class="row">
-			<div class="text-center mx-auto">
-					<img class="logo-empresa m-2" src="assets/img/logo-empresa.png" alt="">
-					<img class="logo-empresa m-2" src="assets/img/logo-empresa.png" alt="">
-					<img class="logo-empresa m-2" src="assets/img/logo-empresa.png" alt="">
-					<img class="logo-empresa m-2" src="assets/img/logo-empresa.png" alt="">
-				</div>
+		<div class="row text-center">
+			
+			<div class="col-md-3 col-12 mt-2">
+				<img class="img-fluid" src="assets/img/logo-empresa.png" alt="">
+			</div>
+			<div class="col-md-3 col-12 mt-2">
+				<img class="img-fluid" src="assets/img/logo-empresa.png" alt="">
+			</div>
+			<div class="col-md-3 col-12 mt-2">
+				<img class="img-fluid" src="assets/img/logo-empresa.png" alt="">
+			</div>
+			<div class="col-md-3 col-12 mt-2">
+				<img class="img-fluid" src="assets/img/logo-empresa.png" alt="">
+			</div>
+
 			<div class="col-12 text-center mt-5">
 				<a href="eita"><button type="submit" class="btn btn-home pl-4 pr-4">Ver todas as empresas</button></a>
 			</div>
@@ -285,5 +308,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+	<?php @include 'footer.php' ?>
 </body>
 </html>
