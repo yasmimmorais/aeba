@@ -18,14 +18,16 @@
 </head>
 <body>
 	<!-- Breadcrumb -->
-	<section>
-		<nav aria-label="breadcrumb">
-		  <ol class="breadcrumb">
-		    <li class="breadcrumb-item"><a href="#">Página Inicial</a></li>
-		    <li class="breadcrumb-item"><a href="#">Produtos & Serviços</a></li>
-		    <li class="breadcrumb-item active" aria-current="page">Visualizar Empresa</li>
-		  </ol>
-		</nav>
+	<section style="background-color: #e9ecef;">
+		<div class="container max-width" style="max-width: 900px;">
+			<div aria-label="breadcrumb">
+			  <ol class="breadcrumb">
+			    <li class="breadcrumb-item"><a href="#">Página Inicial</a></li>
+		    	<li class="breadcrumb-item"><a href="#">Produtos & Serviços</a></li>
+		    	<li class="breadcrumb-item active" aria-current="page">Visualizar Empresa</li>
+			  </ol>
+			</div>			
+		</div>
 	</section>
 
 	<!-- Título da sessão Notícias --> 
@@ -43,14 +45,16 @@
 		<div class="row">
 			<div class="col-lg-4">
 				<!-- Barra de pesquisa -->
-				<form class="form-inline mb-3">
-				    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
-				    <button class="ml-lg-1 btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-				</form>
+				<div class="input-group mb-3 text-center">
+					<input type="text" class="form-control" placeholder="Sua busca" aria-label="Sua busca" aria-describedby="button-addon2">
+					<div class="input-group-append">
+						<button class="btn btn-outline-secondary bg-success text-light border-0 mr-md-5" type="button" id="button-addon2">Pesquisar</button>
+					</div>
+				</div>
 
 				<!-- Dropdown para o mobile -->
-				<div class="dropdown">
-				  <a class="mb-3 btn btn-secondary dropdown-toggle" style="background-color: #01cb62; border:0;" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<div class="dropdown d-block">
+				  <a class="drop mb-3 btn btn-secondary dropdown-toggle" style="background-color: #01cb62; border:0;" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				    Categorias
 				  </a>
 
@@ -62,7 +66,7 @@
 				</div>
 
 				<!-- Lista de Categorias dos Produtos & Serviços -->
-				<div class="list-group mr-lg-5">
+				<div class="list-group mr-lg-5 border-secondary">
 					  <a href="#" class="list-group-item list-group-item-action active-green">
 					    Cras justo odio
 					  </a>
@@ -103,46 +107,46 @@
 
 
 					<!-- Produtos ofertados pela empresa -->
-					<div class="row card-produto">
-						<div class="card m-3" style="width: 12rem;">
+					<div class="row">
+						<div class="card m-3 col-md-3 p-0">
 						<!-- Imagem do produto -->
-						  <img class="card-img-top" src="assets/img/produto.jpg" alt="Imagem de capa do card">
+						  <img class="img-fluid" src="assets/img/produto.jpg" alt="Imagem de capa do card">
 						  <div class="card-body">
 						  	<!-- Nome do produto -->
-						    <a href="" class="card-title-noticia">Título do card</a>
+						    <a href="" class="card-title-noticia">Título do card</a><br>
 						    <!-- Categoria do produto -->
 						    <a href="#">Categoria do ramo<br></a>
 						  </div>
 						</div>
 
-						<div class="card m-3" style="width: 12rem;">
+						<div class="card m-3 col-md-3 p-0">
 						<!-- Imagem do produto -->
-						  <img class="card-img-top" src="assets/img/produto.jpg" alt="Imagem de capa do card">
+						  <img class="img-fluid" src="assets/img/produto.jpg" alt="Imagem de capa do card">
 						  <div class="card-body">
 						  	<!-- Nome do produto -->
-						    <a href="" class="card-title-noticia">Título do card</a>
+						    <a href="" class="card-title-noticia">Título do card</a><br>
 						    <!-- Categoria do produto -->
 						    <a href="#">Categoria do ramo<br></a>
 						  </div>
 						</div>
 
-						<div class="card m-3" style="width: 12rem;">
+						<div class="card m-3 col-md-3 p-0">
 						<!-- Imagem do produto -->
-						  <img class="card-img-top" src="assets/img/produto.jpg" alt="Imagem de capa do card">
+						  <img class="img-fluid" src="assets/img/produto.jpg" alt="Imagem de capa do card">
 						  <div class="card-body">
 						  	<!-- Nome do produto -->
-						    <a href="" class="card-title-noticia">Título do card</a>
+						    <a href="" class="card-title-noticia">Título do card</a><br>
 						    <!-- Categoria do produto -->
 						    <a href="#">Categoria do ramo<br></a>
 						  </div>
 						</div>
 
-						<div class="card m-3" style="width: 12rem;">
+						<div class="card m-3 col-md-3 p-0">
 						<!-- Imagem do produto -->
-						  <img class="card-img-top" src="assets/img/produto.jpg" alt="Imagem de capa do card">
+						  <img class="img-fluid" src="assets/img/produto.jpg" alt="Imagem de capa do card">
 						  <div class="card-body">
 						  	<!-- Nome do produto -->
-						    <a href="" class="card-title-noticia">Título do card</a>
+						    <a href="" class="card-title-noticia">Título do card</a><br>
 						    <!-- Categoria do produto -->
 						    <a href="#">Categoria do ramo<br></a>
 						  </div>

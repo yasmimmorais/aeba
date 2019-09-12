@@ -17,14 +17,17 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
+
 	<!-- Breadcrumb -->
-	<section>
-		<nav aria-label="breadcrumb">
-		  <ol class="breadcrumb">
-		    <li class="breadcrumb-item"><a href="#">Página Inicial</a></li>
-		    <li class="breadcrumb-item active" aria-current="page">Conheça-nos</li>
-		  </ol>
-		</nav>
+	<section style="background-color: #e9ecef;">
+		<div class="container max-width" style="max-width: 900px;">
+			<div aria-label="breadcrumb">
+			  <ol class="breadcrumb">
+			    <li class="breadcrumb-item"><a href="#">Página Inicial</a></li>
+			    <li class="breadcrumb-item active" aria-current="page">Conheça-nos</li>
+			  </ol>
+			</div>			
+		</div>
 	</section>
 
 	<!-- Sobre -->

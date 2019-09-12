@@ -16,17 +16,19 @@
 	<!-- Links das fontes: Roboto e Open Sans -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
 <body>
+
 	<!-- Breadcrumb -->
-	<section>
-		<nav aria-label="breadcrumb">
-		  <ol class="breadcrumb">
-		    <li class="breadcrumb-item"><a href="#">Página Inicial</a></li>
-		    <li class="breadcrumb-item"><a href="#">Notícias</a></li>
-		    <li class="breadcrumb-item active" aria-current="page">Título da notícia com até tantos dígitos que será definido, que resumer a ideia geral de todo o conteúdo</li>
-		  </ol>
-		</nav>
+	<section style="background-color: #e9ecef;">
+		<div class="container max-width" style="max-width: 900px;">
+			<div aria-label="breadcrumb">
+			  <ol class="breadcrumb">
+			    <li class="breadcrumb-item"><a href="#">Notícias</a></li>
+			    <li class="breadcrumb-item active" aria-current="page">Título da notícia com até tantos dígitos que será definido</li>
+			  </ol>
+			</div>			
+		</div>
 	</section>
-	
+
 	<!-- Título da sessão Notícias --> 
 	<section class="container">
 		<div class="row">
@@ -67,7 +69,7 @@
 		</div>
 	</section>
 
-	<!-- Ler Mais Notícias -->
+<!-- Ler Mais Notícias -->
 	<section class="container">
 		<div class="row">
 			<div class="col-lg-8 pt-4 mx-auto">
@@ -82,8 +84,8 @@
 		<div class="row">
 			<div class="col-lg-8 mx-auto">
 				<div class="card mb-0 border-0">
-				  <div class="row no-gutters ">
-				    <div class="col-md-4">
+				  <div class="row no-gutters">
+				    <div class="col-md-4 d-md-block d-none">
 				      <img src="assets/img/image-noticia.png" style="width: 100%;" class="" alt="Imagem da Notícia">
 				    </div>
 				    <div class="col-md-8">
@@ -105,7 +107,7 @@
 			<div class="col-lg-8 mx-auto mt-2">
 				<div class="card mb-0 border-0">
 				  <div class="row no-gutters ">
-				    <div class="col-md-4 ">
+				    <div class="col-md-4 d-md-block d-none">
 				      <img src="assets/img/image-noticia.png" style="width: 100%;" class="" alt="Imagem da Notícia">
 				    </div>
 				    <div class="col-md-8">

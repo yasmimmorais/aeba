@@ -3,6 +3,14 @@
 
 /** todo seu codigo vem aqui */
 
+.max-width{
+	max-width: 900px;
+}
+
+.bg-breadcrumb{
+	background-color: #e9ecef;
+}
+
 /*Variáveis*/
 	/*Tipografias*/
 	$p-font:"Roboto", sans-serif;
@@ -183,9 +191,7 @@ a{&:hover{text-decoration: none;}}
 	font-size: 18px;
 	&:hover{background-color: $l-green; color: white; border: 1px solid $l-green;};
 }
-.logo-empresa{
-	width: 200px;
-}
+
 .title-pesquisa{
 	font-family: $p-font;
 	font-size: 20px;
@@ -201,7 +207,3 @@ a{&:hover{text-decoration: none;}}
 	&:hover{background-color: $l-green; color: white; border: 1px solid $l-green;};
 }
 
-.tam-div-bene{
-	width: 100px;
-	height: 150px;
-}

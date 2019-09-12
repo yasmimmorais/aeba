@@ -19,8 +19,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-		<!-- Menu -->
-	<header>
+	<!-- Menu -->
+	<header class="mb-5 pb-5">
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white border">
 
 		  <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">

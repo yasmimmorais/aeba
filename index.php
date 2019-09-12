@@ -6,8 +6,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="author" content="Yasmim Morais de Vasconcelos">
 	<title>AEBA - Associação dos Empresários do Bairro do Alecrim</title>
-	<!-- Link para a folha de estilo -->
+	<!-- Folha de estilo -->
 	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- Script.js -->
+	<script type="text/javascript" src="assets/js/script.js"></script>
 	
 	<!-- Favicon  -->
 	<link rel="shortcut icon" href="assets/img/favicon_aeba.png">
@@ -23,7 +25,7 @@
 	<a href="https://api.whatsapp.com/send?l=pt&amp;phone=558481214551"><img src="https://i.imgur.com/ryESuZ5.png" style="height:60px; position:fixed; bottom: 25px; right: 25px; z-index:99999;" data-selector="img"></a>
 
 	<!-- Carrossel de divulgações -->
-	<section class="mt-5 pt-2">
+	<section>
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		  <ol class="carousel-indicators">
 		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -56,7 +58,7 @@
 	<section class="container mt-3 pb-3">
 		<div class="row">
 			<div class="col-12">
-				<h2 class="text-center mx-auto mt-5 h3">O que você está procurando?</h2>
+				<h2 class="text-center mx-auto mt-5 h4 pb-2">O que você está procurando?</h2>
 
 				<div class="input-group mb-3 text-center">
 					<input type="text" class="form-control" placeholder="O que você está procurando?" aria-label="O que você está procurando?" aria-describedby="button-addon2">
@@ -73,7 +75,7 @@
 	<section class="container-fluid bg-success mt-5 pt-2">
 		<div class="container col-lg-8 col-md-12 pb-5">
 			<!-- Título da sessão de benefícios -->
-			<div class="row">
+			<div class="row text-center">
 				<h2 class="mx-auto bene-title pt-3 pb-1 mb-5">Principais Benefícios do Associado</h2>
 			</div>
 
@@ -309,6 +311,5 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-	<?php @include 'footer.php' ?>
 </body>
 </html>

@@ -16,16 +16,19 @@
 	<!-- Links das fontes: Roboto e Open Sans -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
 <body>
+
 	<!-- Breadcrumb -->
-	<section>
-		<nav aria-label="breadcrumb">
-		  <ol class="breadcrumb">
-		    <li class="breadcrumb-item"><a href="#">Página Inicial</a></li>
-		    <li class="breadcrumb-item active" aria-current="page">Notícias</li>
-		  </ol>
-		</nav>
+	<section style="background-color: #e9ecef;">
+		<div class="container max-width" style="max-width: 900px;">
+			<div aria-label="breadcrumb">
+			  <ol class="breadcrumb">
+			    <li class="breadcrumb-item"><a href="#">Página Inicial</a></li>
+			    <li class="breadcrumb-item active" aria-current="page">Notícias</li>
+			  </ol>
+			</div>			
+		</div>
 	</section>
-	
+
 	<!-- Título da sessão Notícias --> 
 	<section class="container">
 		<div class="row">
@@ -41,7 +44,7 @@
 	-->
 	<section class="container">
 		<div class="row">
-			<div class="col-lg-3 mb-5 col-md-4 offset-lg-1">
+			<div class="col-lg-3 mb-5 col-md-4">
 				<!-- Imagem -->
 				<img src="assets/img/image-noticia.png" class="card-img-top rounded-0 border-noticia" alt="...">
 			    <div class="card-body p-0 mt-3">
@@ -73,11 +76,9 @@
 			      <p class="card-text text-description mt-1">Presença dos membros do conselho para realização do feito em prol da população.</p>
 			      <p class="card-text"><small class="text-muted">Publicado em 05/09/2019</small></p>
 			    </div>
-			 </div>
-		</div>
+			</div>
 
-		<div class="row">
-			<div class="col-lg-3 mb-5 col-md-4 offset-lg-1">
+			<div class="col-lg-3 mb-5 col-md-4">
 				<!-- Imagem -->
 				<img src="assets/img/image-noticia.png" class="card-img-top rounded-0 border-noticia" alt="...">
 			    <div class="card-body p-0 mt-3">
